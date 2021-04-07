@@ -30,7 +30,7 @@
 	<br>
 	<br>
 
-	<!-- Solucion -->
+	<!-- Solucion 1 -->
 
 	<table border=1>
         <tr>
@@ -52,7 +52,7 @@
 	<br>
 	<br>
 	
-	<!-- Solucion -->
+	<!-- Solucion  2-->
 	<table border="1">
         <thead>
             <th>Nro</th>
