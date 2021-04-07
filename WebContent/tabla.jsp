@@ -49,6 +49,26 @@
         
 	</table>
 
+	<br>
+	<br>
+	
+	<!-- Solucion -->
+	<table border="1">
+        <thead>
+            <th>Nro</th>
+        </thead>
+        <tbody>
+            <%
+            for (int i = 0; i < 10; i++) {
+            %>
+            <tr>
+                <td><%=i%></td>
+            </tr>
+            <%
+            }
+            %>
+        </tbody>
+    </table>
 
 </body>
 </html>
