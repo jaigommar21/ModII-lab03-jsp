@@ -10,13 +10,13 @@
 <body>
 	<%
 		Collection<String> c = new ArrayList<String>();
-		c.add("servlets");
-		c.add("jsp");
-		c.add("beans");
-		c.add("tags");
+		c.add("Servlets");
+		c.add("JSP");
+		c.add("Beans");
+		c.add("Tags");
 	
-		for (String x : c) {
-			out.print(x + "<br>");
+		for (String item : c) {
+			out.print(item + "<br>");
 		}
 	%>
 
