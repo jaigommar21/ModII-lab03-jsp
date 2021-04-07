@@ -36,15 +36,17 @@
         <tr>
             <td>Nro</td>
         </tr>
+        
         <%
-        for (int i = 1; i < 10; i++) {
+        	for (int i = 1; i < 10; i++) {
         %>
-        <tr>
-            <td><%=i %></td>
-        </tr>
+	        <tr>
+	            <td><%=i %></td>
+	        </tr>
         <%
-        }
+        	}
         %>
+        
 	</table>
 
 
