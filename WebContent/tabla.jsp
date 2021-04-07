@@ -27,6 +27,25 @@
 		</tr>
 	</table>
 
+	<br>
+	<br>
+
+	<!-- Solucion -->
+
+	<table border=1>
+        <tr>
+            <td>Nro</td>
+        </tr>
+        <%
+        for (int i = 1; i < 10; i++) {
+        %>
+        <tr>
+            <td><%=i %></td>
+        </tr>
+        <%
+        }
+        %>
+	</table>
 
 
 </body>
